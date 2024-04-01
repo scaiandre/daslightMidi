@@ -14,7 +14,7 @@ OUTPUT_PORT_NAME = BASE_PORT_NAME + 'Control 1'
 START_CONDITION = {'note': 60, 'channel': 0, 'type': 'note_on', 'velocity': 1, 'time': 0}  # Example: Note C4 on
 STOP_CONDITION = {'note': 60, 'channel': 0, 'type': 'note_on', 'velocity': 0, 'time': 0}  # Example: Note C4 on
 
-FADER_VALUES = [26, 33, 37, 39, 40, 49]
+FADER_VALUES = [6, 8, 9, 10, 11, 12, 15, 16, 16, 17, 18, 19, 20, 23, 26, 30, 33, 34, 35, 37, 39, 40, 46, 47, 49, 51, 52, 58, 65, 68, 127, 130, 151, 161, 162, 163, 166]
 
 def select_random_value(array):
     """Selects a random value from the given array."""

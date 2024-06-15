@@ -1,7 +1,7 @@
 # Replace these with the names of your virtual MIDI ports created in loopMIDI
 BASE_PORT_NAME = 'RandomDasLight'
-OUTPUT_PORT_NAME = BASE_PORT_NAME + 'Control 1'
-INPUT_PORT_NAME = BASE_PORT_NAME + 'Return 1'
+OUTPUT_PORT_NAME = BASE_PORT_NAME + 'Control 2'
+INPUT_PORT_NAME = BASE_PORT_NAME + 'Return 0'
 
 # Conditions for starting and stopping the sender thread
 START_CONDITION = {'note': 60, 'channel': 0, 'type': 'note_on', 'velocity': 1, 'time': 0}  # Example: Note C4 on

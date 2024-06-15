@@ -31,6 +31,8 @@ def midi_listener(inport, sender_thread):
 def main():
     sender_thread = ThreadSenderBpmSynced()
     sender_thread.start()
+
+    print(mido.get_output_names())
     
     with mido.open_input(INPUT_PORT_NAME) as inport:
         print(strftime("%Y-%m-%d %H:%M:%S", gmtime()), "Listening for MIDI messages and keyboard input. Press 'x' to exit.")
